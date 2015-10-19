@@ -81,5 +81,5 @@ Some parts of android.support.v7.AlertDialog can be styled very easily. It is st
                         .setNegativeButton("取消", null)
                         .show();
                         
-  ![confirm dialog](https://github.com/Cookizz/AlertDialog-Fast-Styling/blob/master/art/radiodialog.png)
+  ![confirm dialog](https://github.com/Cookizz/AlertDialog-Fast-Styling/blob/master/art/checkdialog.png)
   
