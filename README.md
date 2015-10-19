@@ -36,11 +36,11 @@ Some parts of android.support.v7.AlertDialog can be styled very easily. It is st
   2.1 Confirm Dialog
   
         AlertDialog dialog = new AlertDialog.Builder(context, R.style.AlertDialogFastStyling)
-                        .setTitle("提醒")
-                        .setPositiveButton("是", null)
-                        .setNegativeButton("否", null)
-                        .setMessage("检测到距离您上次清理已超过30天，是否立即清理？")
-                        .show();
+                .setTitle("提醒")
+                .setPositiveButton("是", null)
+                .setNegativeButton("否", null)
+                .setMessage("检测到距离您上次清理已超过30天，是否立即清理？")
+                .show();
   
   ![confirm dialog](https://github.com/Cookizz/AlertDialog-Fast-Styling/blob/master/art/confirmdialog.png)
   
@@ -48,14 +48,14 @@ Some parts of android.support.v7.AlertDialog can be styled very easily. It is st
   2.2 Choice Dialog
   
         AlertDialog dialog = new AlertDialog.Builder(context, R.style.AlertDialogFastStyling)
-                        .setItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"},
-                                new DialogInterface.OnClickListener() {
-                                    @Override
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        dialog.cancel();
-                                    }
-                        })
-                        .show();
+                .setItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"},
+                        new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                            }
+                })
+                .show();
                         
   ![confirm dialog](https://github.com/Cookizz/AlertDialog-Fast-Styling/blob/master/art/choicedialog.png)
   
@@ -63,10 +63,10 @@ Some parts of android.support.v7.AlertDialog can be styled very easily. It is st
   2.3 Radio Dialog
   
         AlertDialog dialog = new AlertDialog.Builder(context, R.style.AlertDialogFastStyling)
-                        .setSingleChoiceItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"}, 0, null)
-                        .setPositiveButton("确定", null)
-                        .setNegativeButton("取消", null)
-                        .show();
+                .setSingleChoiceItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"}, 0, null)
+                .setPositiveButton("确定", null)
+                .setNegativeButton("取消", null)
+                .show();
                         
   ![confirm dialog](https://github.com/Cookizz/AlertDialog-Fast-Styling/blob/master/art/radiodialog.png)
   
@@ -74,12 +74,12 @@ Some parts of android.support.v7.AlertDialog can be styled very easily. It is st
   2.4 Check Dialog
   
         AlertDialog dialog = new AlertDialog.Builder(context, R.style.AlertDialogFastStyling)
-                        .setMultiChoiceItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"},
-                                new boolean[] {false, true, true},
-                                null)
-                        .setPositiveButton("确定", null)
-                        .setNegativeButton("取消", null)
-                        .show();
+                .setMultiChoiceItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"},
+                        new boolean[] {false, true, true},
+                        null)
+                .setPositiveButton("确定", null)
+                .setNegativeButton("取消", null)
+                .show();
                         
   ![confirm dialog](https://github.com/Cookizz/AlertDialog-Fast-Styling/blob/master/art/checkdialog.png)
   
