@@ -1,5 +1,5 @@
 # AlertDialog-Fast-Styling
-Some parts of `android.support.v7.AlertDialog` can be styled very easily. It is stupid to recreate a custom layout.
+Some visual parts of `android.support.v7.AlertDialog` can be styled by inheriting its base theme instead of customizing new layouts, which is considered clumsy. Modifying these visual parts still agrees with Material Design.
 
 ## Requirement
 
@@ -9,7 +9,7 @@ Some parts of `android.support.v7.AlertDialog` can be styled very easily. It is 
 
 ## Approach
 
-  1. Fork styles of `style.xml` into your project and redefine their value as you want.
+  1. Fork the following style xml code into your `style.xml` and modify their value as you want.
 
         <style name="AlertDialogFastStyling" parent="Base.Theme.AppCompat.Light.Dialog">
             <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
@@ -37,7 +37,7 @@ Some parts of `android.support.v7.AlertDialog` can be styled very easily. It is 
           	<item name="android:textSize">14sp</item>
          </style>
 
-  2. Apply your style (here is called `AlertDialogFastStyling`) to your `android.support.v7.app.AlertDialog` component. The following samples are available for testing and their insets show the visual mappings to `AlertDialogFastStyling`.
+  2. Use `AlertDialogFastStyling` while building `AlertDialog` component. The following samples are available for testing and their insets show the visual mappings to style items in `AlertDialogFastStyling`.
 
   ##### Confirm Dialog
   
