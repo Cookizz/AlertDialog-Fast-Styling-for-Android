@@ -1,5 +1,5 @@
 # AlertDialog-Fast-Styling
-Some visual parts of `android.support.v7.AlertDialog` can be styled by inheriting its base theme instead of customizing new layouts, which is considered clumsy. Modifying these visual parts still agrees with Material Design.
+Some visual parts of `android.support.v7.AlertDialog` can be fastly styled by inheriting its base theme instead of customizing new layouts, which is considered clumsy. Modifying these visual parts still agrees with Material Design.
 
 ## Requirement
 
