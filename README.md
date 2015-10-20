@@ -9,7 +9,7 @@ Some visual parts of `android.support.v7.AlertDialog` can be fastly styled by in
 
 ## Approach
 
-  1. Fork the following style xml code into your `style.xml` and modify their value as you want.
+  1. Fork the following style xml code into your `styles.xml` and modify their value as you want.
 
         <style name="AlertDialogFastStyling" parent="Base.Theme.AppCompat.Light.Dialog">
             <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
