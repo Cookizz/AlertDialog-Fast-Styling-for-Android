@@ -1,5 +1,11 @@
 # AlertDialog-Fast-Styling
-Some parts of android.support.v7.AlertDialog can be styled very easily. It is stupid to recreate a custom layout.
+Some parts of `android.support.v7.AlertDialog` can be styled very easily. It is stupid to recreate a custom layout.
+
+## Requirement
+
+      dependencies {
+          compile 'com.android.support:appcompat-v7:22.2.0'
+      }
 
 ## Approach
 
@@ -33,7 +39,7 @@ Some parts of android.support.v7.AlertDialog can be styled very easily. It is st
 
   2. Apply your style (here is called `AlertDialogFastStyling`) to your `android.support.v7.app.AlertDialog` component. The following samples are available for testing and their insets show the visual mappings to `AlertDialogFastStyling`.
 
-  2.1 Confirm Dialog
+  ##### Confirm Dialog
   
         AlertDialog dialog = new AlertDialog.Builder(context, R.style.AlertDialogFastStyling)
                 .setTitle("提醒")
@@ -45,7 +51,7 @@ Some parts of android.support.v7.AlertDialog can be styled very easily. It is st
   ![confirm dialog](https://github.com/Cookizz/AlertDialog-Fast-Styling/blob/master/art/confirmdialog.png)
   
   ===
-  2.2 Choice Dialog
+  #### Choice Dialog
   
         AlertDialog dialog = new AlertDialog.Builder(context, R.style.AlertDialogFastStyling)
                 .setItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"},
@@ -60,7 +66,7 @@ Some parts of android.support.v7.AlertDialog can be styled very easily. It is st
   ![confirm dialog](https://github.com/Cookizz/AlertDialog-Fast-Styling/blob/master/art/choicedialog.png)
   
   ===
-  2.3 Radio Dialog
+  #### Radio Dialog
   
         AlertDialog dialog = new AlertDialog.Builder(context, R.style.AlertDialogFastStyling)
                 .setSingleChoiceItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"}, 0, null)
@@ -71,7 +77,7 @@ Some parts of android.support.v7.AlertDialog can be styled very easily. It is st
   ![confirm dialog](https://github.com/Cookizz/AlertDialog-Fast-Styling/blob/master/art/radiodialog.png)
   
   ===
-  2.4 Check Dialog
+  #### Check Dialog
   
         AlertDialog dialog = new AlertDialog.Builder(context, R.style.AlertDialogFastStyling)
                 .setMultiChoiceItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"},
