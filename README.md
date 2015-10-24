@@ -11,31 +11,31 @@ Some visual parts of `android.support.v7.AlertDialog` can be fastly styled by in
 
   1. Fork the following style xml code into your `styles.xml` and modify their value as you want.
 
-        <style name="AlertDialogFastStyling" parent="Base.Theme.AppCompat.Light.Dialog">
-            <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
-          	<item name="android:windowTitleStyle">@style/AlertDialogFastStyling.Title</item>
-          	<item name="android:windowBackground">@drawable/abc_dialog_material_background_light</item>
-          
-          	<item name="listPreferredItemPaddingLeft">24dp</item>
-          	<item name="listPreferredItemPaddingRight">24dp</item>
-          
-          	<item name="buttonBarButtonStyle">@style/AlertDialogFastStyling.Button</item>
-          
-          	<item name="android:listChoiceIndicatorSingle">@drawable/abc_btn_radio_material</item>
-          	<item name="android:listChoiceIndicatorMultiple">@drawable/abc_btn_check_material</item>
-        </style>
-          
-        <style name="AlertDialogFastStyling.Title" parent="RtlOverlay.DialogWindowTitle.AppCompat">
-          	<item name="android:textAppearance">@style/AlertDialogFastStyling.Title.TextAppearance</item>
-        </style>
-        <style name="AlertDialogFastStyling.Title.TextAppearance">
-          	<item name="android:textSize">@dimen/abc_text_size_title_material</item>
-          	<item name="android:textColor">@color/abc_primary_text_material_light</item>
-        </style>
-        <style name="AlertDialogFastStyling.Button" parent="Base.Widget.AppCompat.Button.ButtonBar.AlertDialog">
-          	<item name="android:textColor">#009688</item>
-          	<item name="android:textSize">14sp</item>
-         </style>
+        <style name="CN21AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+              <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
+              <item name="android:windowTitleStyle">@style/AlertDialogFastStyling.Title</item>
+              <item name="android:windowBackground">@drawable/abc_dialog_material_background_light</item>
+      
+              <item name="listPreferredItemPaddingLeft">24dp</item>
+              <item name="listPreferredItemPaddingRight">24dp</item>
+      
+              <item name="buttonBarButtonStyle">@style/AlertDialogFastStyling.Button</item>
+      
+              <item name="android:listChoiceIndicatorSingle">@drawable/abc_btn_radio_material</item>
+              <item name="android:listChoiceIndicatorMultiple">@drawable/abc_btn_check_material</item>
+          </style>
+      
+          <style name="AlertDialogFastStyling.Title" parent="RtlOverlay.DialogWindowTitle.AppCompat">
+              <item name="android:textAppearance">@style/AlertDialogFastStyling.Title.TextAppearance</item>
+          </style>
+          <style name="AlertDialogFastStyling.Title.TextAppearance">
+              <item name="android:textSize">@dimen/abc_text_size_title_material</item>
+              <item name="android:textColor">@color/abc_primary_text_material_light</item>
+          </style>
+          <style name="AlertDialogFastStyling.Button" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+              <item name="android:textColor">#009688</item>
+              <item name="android:textSize">14sp</item>
+          </style>
 
   2. Use `AlertDialogFastStyling` while building `AlertDialog` component. The following samples are available for testing and their insets show the visual mappings to style items in `AlertDialogFastStyling`.
 
