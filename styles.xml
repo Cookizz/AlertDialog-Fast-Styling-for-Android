@@ -1,4 +1,4 @@
-<style name="CN21AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+<style name="AlertDialogFastStyling" parent="Theme.AppCompat.Light.Dialog.Alert">
         <!-- 主文字颜色（标题、正文message） -->
         <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
         <!-- 标题样式（颜色、大小），可覆盖textColorPrimary规定的标题颜色 -->
