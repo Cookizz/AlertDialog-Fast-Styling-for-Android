@@ -11,7 +11,7 @@ Some visual parts of `android.support.v7.AlertDialog` can be fastly styled by in
 
   1. Fork the following style xml code into your `styles.xml` and modify their value as you want.
 
-        <style name="CN21AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <style name="AlertDialogFastStyling" parent="Theme.AppCompat.Light.Dialog.Alert">
               <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
               <item name="android:windowTitleStyle">@style/AlertDialogFastStyling.Title</item>
               <item name="android:windowBackground">@drawable/abc_dialog_material_background_light</item>
