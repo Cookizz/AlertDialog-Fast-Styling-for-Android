@@ -51,7 +51,7 @@ Some visual parts of `android.support.v7.AlertDialog` can be fastly styled by in
   ![confirm dialog](https://github.com/Cookizz/AlertDialog-Fast-Styling/blob/master/art/confirmdialog.png)
   
   ===
-  #### Choice Dialog
+  ##### Choice Dialog
   
         AlertDialog dialog = new AlertDialog.Builder(context, R.style.AlertDialogFastStyling)
                 .setItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"},
@@ -66,7 +66,7 @@ Some visual parts of `android.support.v7.AlertDialog` can be fastly styled by in
   ![confirm dialog](https://github.com/Cookizz/AlertDialog-Fast-Styling/blob/master/art/choicedialog.png)
   
   ===
-  #### Radio Dialog
+  ##### Radio Dialog
   
         AlertDialog dialog = new AlertDialog.Builder(context, R.style.AlertDialogFastStyling)
                 .setSingleChoiceItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"}, 0, null)
@@ -77,7 +77,7 @@ Some visual parts of `android.support.v7.AlertDialog` can be fastly styled by in
   ![confirm dialog](https://github.com/Cookizz/AlertDialog-Fast-Styling/blob/master/art/radiodialog.png)
   
   ===
-  #### Check Dialog
+  ##### Check Dialog
   
         AlertDialog dialog = new AlertDialog.Builder(context, R.style.AlertDialogFastStyling)
                 .setMultiChoiceItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"},
