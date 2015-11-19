@@ -54,7 +54,7 @@ Some visual parts of `android.support.v7.AlertDialog` can be fastly styled by in
   ##### Choice Dialog
   
         AlertDialog dialog = new AlertDialog.Builder(context, R.style.AlertDialogFastStyling)
-                .setItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"},
+                .setItems(new String[] {"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"},
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -69,7 +69,7 @@ Some visual parts of `android.support.v7.AlertDialog` can be fastly styled by in
   ##### Radio Dialog
   
         AlertDialog dialog = new AlertDialog.Builder(context, R.style.AlertDialogFastStyling)
-                .setSingleChoiceItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"}, 0, null)
+                .setSingleChoiceItems(new String[] {"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"}, 0, null)
                 .setPositiveButton("确定", null)
                 .setNegativeButton("取消", null)
                 .show();
@@ -80,7 +80,7 @@ Some visual parts of `android.support.v7.AlertDialog` can be fastly styled by in
   ##### Check Dialog
   
         AlertDialog dialog = new AlertDialog.Builder(context, R.style.AlertDialogFastStyling)
-                .setMultiChoiceItems(new String[]{"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"},
+                .setMultiChoiceItems(new String[] {"布丁味的老人茶", "奶昔", "巴拿拿牌烤香蕉"},
                         new boolean[] {false, true, true},
                         null)
                 .setPositiveButton("确定", null)
